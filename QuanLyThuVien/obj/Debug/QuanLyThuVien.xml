@@ -1,0 +1,191 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+QuanLyThuVien
+</name>
+</assembly>
+<members>
+<member name="T:QuanLyThuVien.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:QuanLyThuVien.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:QuanLyThuVien.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:QuanLyThuVien.QLTVDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:QuanLyThuVien.QLTVDataSet.BOOKDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QuanLyThuVien.QLTVDataSet.DocTchoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QuanLyThuVien.QLTVDataSet.LoginAccDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QuanLyThuVien.QLTVDataSet.MuonSachDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QuanLyThuVien.QLTVDataSet.RegisterDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QuanLyThuVien.QLTVDataSet.ThTinSachDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QuanLyThuVien.QLTVDataSet.BOOKRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QuanLyThuVien.QLTVDataSet.DocTchoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QuanLyThuVien.QLTVDataSet.LoginAccRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QuanLyThuVien.QLTVDataSet.MuonSachRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QuanLyThuVien.QLTVDataSet.RegisterRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QuanLyThuVien.QLTVDataSet.ThTinSachRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QuanLyThuVien.QLTVDataSet.BOOKRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QuanLyThuVien.QLTVDataSet.DocTchoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QuanLyThuVien.QLTVDataSet.LoginAccRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QuanLyThuVien.QLTVDataSet.MuonSachRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QuanLyThuVien.QLTVDataSet.RegisterRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QuanLyThuVien.QLTVDataSet.ThTinSachRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QuanLyThuVien.QLTVDataSetTableAdapters.BOOKTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QuanLyThuVien.QLTVDataSetTableAdapters.DocTchoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QuanLyThuVien.QLTVDataSetTableAdapters.LoginAccTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QuanLyThuVien.QLTVDataSetTableAdapters.MuonSachTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QuanLyThuVien.QLTVDataSetTableAdapters.RegisterTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QuanLyThuVien.QLTVDataSetTableAdapters.ThTinSachTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QuanLyThuVien.QLTVDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:QuanLyThuVien.QLTVDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(QuanLyThuVien.QLTVDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:QuanLyThuVien.QLTVDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(QuanLyThuVien.QLTVDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:QuanLyThuVien.QLTVDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(QuanLyThuVien.QLTVDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:QuanLyThuVien.QLTVDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:QuanLyThuVien.QLTVDataSetTableAdapters.TableAdapterManager.UpdateAll(QuanLyThuVien.QLTVDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:QuanLyThuVien.QLTVDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:QuanLyThuVien.QLTVDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
